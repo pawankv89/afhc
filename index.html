@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <title>Address Book</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+        .body-background-color {
+          background-color:#f1f1f1;
+        }
+        .background-color {
+          background-color:#f1f1f1;
+          text-align:center;
+          padding:10px;
+          margin-top:10px;
+          font-size:20px;
+        }
+        .rcorners {
+         border-radius: 40px;
+         background-position: left top;
+         background-repeat: repeat;
+         padding: 20px; 
+         width: 150px;
+         height: 150px; 
+        }
+        .button { 
+         width: 150px;
+         height: 45px; 
+        }
+
+      </style>
+      <script>
+function apple_appstore_button() {
+  window.location="itms-services://?action=download-manifest&amp;url=https://addressbookpoc.herokuapp.com/book-1/afhc.plist";
+}
+</script>
+    </head>
+    <body class="body-background-color">
+   <div class="background-color"> 
+       <img class="rcorners" src="https://addressbookpoc.herokuapp.com/afhc/afhc.png">
+   </div>
+    <div class="background-color"> 
+    <div>Thank you for visiting Address Book Portal.</div>
+    <div>For an optimum Mobile experience,</div>
+    <div>Please download our App.</div>
+   </div>
+    <div class="background-color"> 
+       <img class="button" onclick="apple_appstore_button()" src="https://addressbookpoc.herokuapp.com/afhc/apple-appstore-button.png">
+   </div>
+
+    </body>
+</html>
