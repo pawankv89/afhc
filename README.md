@@ -1,6 +1,6 @@
 # afhc
 Build File
 
-### Downnload Link
+### Download Link
 https://pawankv89.github.io/afhc/index.html
 
